@@ -1,0 +1,22 @@
+@import './base/common';
+@import './base/reset';
+
+@import './utils/hidden';
+@import './utils/variables';
+
+@import './components/shared/buttons';
+@import './components/shared/modal';
+@import './components/shared/titles';
+@import './components/shared/forms';
+
+@import './components/header';
+@import './components/burger-menu';
+@import './components/hero';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/customer-reviews';
+@import './components/contacts';
+@import './components/footer';
+@import './components/to-top-btn';

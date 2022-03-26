@@ -1,0 +1,46 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 740px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1200px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d41443;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e17992;
+}
